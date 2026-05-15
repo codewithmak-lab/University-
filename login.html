@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(180deg, bisque, burlywood);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 100px;
+        }
+
+        table {
+            border: 5px solid gray;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+        }
+
+        td, th {
+            padding: 10px;
+        }
+
+        input[type="email"],
+        input[type="password"] {
+            padding: 5px;
+            width: 200px;
+        }
+
+        input[type="submit"] {
+            padding: 8px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Login for More Exploring</h1>
+
+    <form method="get">
+        <table>
+            <tr>
+                <th>Username:</th>
+                <td>
+                    <input type="email" placeholder="Enter email" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Password:</th>
+                <td>
+                    <input type="password" placeholder="Enter password" required>
+                </td>
+            </tr>
+
+            <tr>
+                <th colspan="2">
+                    <input type="submit" value="Login">
+                </th>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
